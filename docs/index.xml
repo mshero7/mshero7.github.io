@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on Hugo tranquilpeak theme</title>
-    <link>https://example.org/docs/</link>
+    <link>https://mshero7.github.io/docs/</link>
     <description>Recent content in Docs on Hugo tranquilpeak theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Apr 2019 19:27:37 +1000</lastBuildDate>
     
-	<atom:link href="https://example.org/docs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mshero7.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Builder Pattern</title>
-      <link>https://example.org/docs/specimen/</link>
+      <link>https://mshero7.github.io/docs/specimen/</link>
       <pubDate>Thu, 25 Apr 2019 19:27:37 +1000</pubDate>
       
-      <guid>https://example.org/docs/specimen/</guid>
+      <guid>https://mshero7.github.io/docs/specimen/</guid>
       <description>생성패턴(Creational Pattern) - Builder Pattern 목적  객체의 construction 과정과 객체의 representation을 분리
 이렇게 분리함으로 하나의 construction 과정을 이용해 서로 다른 형태의 representation 을 이용할 수 있음 =&amp;gt; 하나의 Director로 상위 Builder에 표현된 다른 하위 Builder를 이용할 수 있음.
 복잡한 객체의 단계별 생성
