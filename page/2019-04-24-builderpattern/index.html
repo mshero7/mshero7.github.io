@@ -13,7 +13,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="generator" content="Hugo 0.55.4 with theme Tranquilpeak 0.4.3-SNAPSHOT">
 <meta name="author" content="Moon Sagn Su">
-<meta name="keywords" content="">
+<meta name="keywords" content="tech">
 <meta name="description" content="생성패턴(Creational Pattern) - Builder Pattern 목적  객체의 construction 과정과 객체의 representation을 분리
 이렇게 분리함으로 하나의 construction 과정을 이용해 서로 다른 형태의 representation 을 이용할 수 있음 =&gt; 하나의 Director로 상위 Builder에 표현된 다른 하위 Builder를 이용할 수 있음.
 복잡한 객체의 단계별 생성
@@ -29,8 +29,8 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Builder Pattern">
 <meta name="twitter:title" content="Builder Pattern">
-<meta property="og:url" content="https://mshero7.github.io/docs/specimen/">
-<meta property="twitter:url" content="https://mshero7.github.io/docs/specimen/">
+<meta property="og:url" content="https://mshero7.github.io/page/2019-04-24-builderpattern/">
+<meta property="twitter:url" content="https://mshero7.github.io/page/2019-04-24-builderpattern/">
 <meta property="og:site_name" content="Hugo tranquilpeak theme">
 <meta property="og:description" content="생성패턴(Creational Pattern) - Builder Pattern 목적  객체의 construction 과정과 객체의 representation을 분리
 이렇게 분리함으로 하나의 construction 과정을 이용해 서로 다른 형태의 representation 을 이용할 수 있음 =&gt; 하나의 Director로 상위 Builder에 표현된 다른 하위 Builder를 이용할 수 있음.
@@ -45,13 +45,21 @@
 <meta property="og:locale" content="en-us">
 
   
-    <meta property="article:published_time" content="2019-04-25T19:27:37">
-  
-  
-    <meta property="article:modified_time" content="2019-04-25T19:27:37">
   
   
   
+    
+      <meta property="article:section" content="category">
+    
+      <meta property="article:section" content="subcategory">
+    
+  
+  
+    
+      <meta property="article:tag" content="tag1">
+    
+      <meta property="article:tag" content="tag2">
+    
   
 
 
@@ -78,7 +86,7 @@
 
     
 
-    <link rel="canonical" href="https://mshero7.github.io/docs/specimen/">
+    <link rel="canonical" href="https://mshero7.github.io/page/2019-04-24-builderpattern/">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
@@ -213,17 +221,6 @@
     </h1>
   
   
-  <div class="postShorten-meta post-meta">
-    
-      <time itemprop="datePublished" datetime="2019-04-25T19:27:37&#43;10:00">
-        
-  April 25, 2019
-
-      </time>
-    
-    
-  </div>
-
 </div>
           
           <div class="post-content markdown" itemprop="articleBody">
@@ -301,7 +298,8 @@
 }
 </code></pre>
 
-<pre><code class="language-java">public class Member {
+<pre><code class="language-java">
+public class Member {
     // 회원가입 입력양식
     private String id;
     private String pw;
@@ -413,9 +411,12 @@
 
 <ul>
 <li><a href="https://hamait.tistory.com/847">https://hamait.tistory.com/847</a></li>
-<li><a href="https://keichee.tistory.com/176">https://keichee.tistory.com/176</a></li>
-<li><a href="https://johngrib.github.io/wiki/builder-pattern/#%EC%9E%A5%EC%A0%90-2">https://johngrib.github.io/wiki/builder-pattern/#%EC%9E%A5%EC%A0%90-2</a></li>
-<li>자바 생성자로 인한 문제를 해결하기 위한 참고할만한 자료
+
+<li><p><a href="https://keichee.tistory.com/176">https://keichee.tistory.com/176</a></p></li>
+
+<li><p><a href="https://johngrib.github.io/wiki/builder-pattern/#%EC%9E%A5%EC%A0%90-2">https://johngrib.github.io/wiki/builder-pattern/#%EC%9E%A5%EC%A0%90-2</a></p></li>
+
+<li><p>자바 생성자로 인한 문제를 해결하기 위한 참고할만한 자료</p>
 
 <ul>
 <li><a href="https://asfirstalways.tistory.com/350">https://asfirstalways.tistory.com/350</a></li>
@@ -428,82 +429,23 @@
           <div id="post-footer" class="post-footer main-content-wrap">
             
               
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://mshero7.github.io/tags/tag1/">tag1</a>
+
+  <a class="tag tag--primary tag--small" href="https://mshero7.github.io/tags/tag2/">tag2</a>
+
+                  </div>
+                
+              
             
             <div class="post-actions-wrap">
   
-      <nav >
-        <ul class="post-actions post-action-nav">
-          
-            <li class="post-action">
-              
-                <a class="post-action-btn btn btn--disabled">
-              
-                  <i class="fa fa-angle-left"></i>
-                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
-                </a>
-            </li>
-            <li class="post-action">
-              
-                <a class="post-action-btn btn btn--disabled">
-              
-                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
-                  <i class="fa fa-angle-right"></i>
-                </a>
-            </li>
-          
-        </ul>
-      </nav>
-    <ul class="post-actions post-action-share" >
-      
-        <li class="post-action hide-lg hide-md hide-sm">
-          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
-            <i class="fa fa-share-alt"></i>
-          </a>
-        </li>
-        
-          <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://mshero7.github.io/docs/specimen/">
-              <i class="fa fa-facebook-official"></i>
-            </a>
-          </li>
-        
-          <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://mshero7.github.io/docs/specimen/">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-        
-          <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://mshero7.github.io/docs/specimen/">
-              <i class="fa fa-google-plus"></i>
-            </a>
-          </li>
-        
-      
-      
-        <li class="post-action">
-          <a class="post-action-btn btn btn--default" href="#disqus_thread">
-            <i class="fa fa-comment-o"></i>
-          </a>
-        </li>
-      
-      <li class="post-action">
-        
-          <a class="post-action-btn btn btn--default" href="#">
-        
-          <i class="fa fa-list"></i>
-        </a>
-      </li>
-    </ul>
-  
 </div>
 
-            
-              
-                <div id="disqus_thread">
-  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-              
             
           </div>
         </article>
@@ -517,71 +459,6 @@
       <div id="bottom-bar" class="post-bottom-bar" data-behavior="1">
         <div class="post-actions-wrap">
   
-      <nav >
-        <ul class="post-actions post-action-nav">
-          
-            <li class="post-action">
-              
-                <a class="post-action-btn btn btn--disabled">
-              
-                  <i class="fa fa-angle-left"></i>
-                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
-                </a>
-            </li>
-            <li class="post-action">
-              
-                <a class="post-action-btn btn btn--disabled">
-              
-                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
-                  <i class="fa fa-angle-right"></i>
-                </a>
-            </li>
-          
-        </ul>
-      </nav>
-    <ul class="post-actions post-action-share" >
-      
-        <li class="post-action hide-lg hide-md hide-sm">
-          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
-            <i class="fa fa-share-alt"></i>
-          </a>
-        </li>
-        
-          <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://mshero7.github.io/docs/specimen/">
-              <i class="fa fa-facebook-official"></i>
-            </a>
-          </li>
-        
-          <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://mshero7.github.io/docs/specimen/">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-        
-          <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://mshero7.github.io/docs/specimen/">
-              <i class="fa fa-google-plus"></i>
-            </a>
-          </li>
-        
-      
-      
-        <li class="post-action">
-          <a class="post-action-btn btn btn--default" href="#disqus_thread">
-            <i class="fa fa-comment-o"></i>
-          </a>
-        </li>
-      
-      <li class="post-action">
-        
-          <a class="post-action-btn btn btn--default" href="#">
-        
-          <i class="fa fa-list"></i>
-        </a>
-      </li>
-    </ul>
-  
 </div>
 
       </div>
@@ -590,19 +467,19 @@
   <ul class="share-options">
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmshero7.github.io%2Fdocs%2Fspecimen%2F">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmshero7.github.io%2Fpage%2F2019-04-24-builderpattern%2F">
           <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fmshero7.github.io%2Fdocs%2Fspecimen%2F">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fmshero7.github.io%2Fpage%2F2019-04-24-builderpattern%2F">
           <i class="fa fa-twitter"></i><span>Share on Twitter</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fmshero7.github.io%2Fdocs%2Fspecimen%2F">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fmshero7.github.io%2Fpage%2F2019-04-24-builderpattern%2F">
           <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
         </a>
       </li>
@@ -718,30 +595,6 @@ $(document).ready(function() {
 </script>
 
 
-  
-    
-      <script>
-        var disqus_config = function () {
-          this.page.url = 'https:\/\/mshero7.github.io\/docs\/specimen\/';
-          
-            this.page.identifier = '\/docs\/specimen\/'
-          
-        };
-        (function() {
-          
-          
-          if (window.location.hostname == "localhost") {
-            return;
-          }
-          var d = document, s = d.createElement('script');
-          var disqus_shortname = 'hugo-tranquilpeak-theme';
-          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-        })();
-      </script>
-    
   
 
 

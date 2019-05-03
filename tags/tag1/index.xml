@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Whisper Docs on Hugo tranquilpeak theme</title>
-    <link>https://mshero7.github.io/</link>
-    <description>Recent content in Hugo Whisper Docs on Hugo tranquilpeak theme</description>
+    <title>tag1 on Hugo tranquilpeak theme</title>
+    <link>https://mshero7.github.io/tags/tag1/</link>
+    <description>Recent content in tag1 on Hugo tranquilpeak theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate>
+    <lastBuildDate>Fri, 03 May 2019 16:59:38 +0900</lastBuildDate>
     
-	<atom:link href="https://mshero7.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mshero7.github.io/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Builder Pattern</title>
-      <link>https://mshero7.github.io/docs/specimen/</link>
-      <pubDate>Thu, 25 Apr 2019 19:27:37 +1000</pubDate>
-      
-      <guid>https://mshero7.github.io/docs/specimen/</guid>
-      <description>생성패턴(Creational Pattern) - Builder Pattern 목적  객체의 construction 과정과 객체의 representation을 분리
-이렇게 분리함으로 하나의 construction 과정을 이용해 서로 다른 형태의 representation 을 이용할 수 있음 =&amp;gt; 하나의 Director로 상위 Builder에 표현된 다른 하위 Builder를 이용할 수 있음.
-복잡한 객체의 단계별 생성
-각기 다른 능력을 가진 객체를 생성하는데 있어서 통일 된 방식을 제공한다는 것.
- UML Diagram  Builder  Product 객체의 부분을 생성하기위한 추상 인터페이스를 지정합니다.  ConcreteBuilder  Builder 인터페이스를 구현하여 제품의 일부를 구성하고 어셈블합니다.</description>
-    </item>
     
     <item>
       <title>Contact</title>
